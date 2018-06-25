@@ -41,7 +41,7 @@ De exceder el tamaño máximo de 40 caracteres para la Clave, la operación fall
 Cuando un Usuario ejecute una operación de STORE o SET y la clave no exista, se deberá generar un error informando de dicha inexistencia al Usuario. Abortando el ESI culpable.
 
 ### Error de Comunicación
-En caso de que ocurra un error en la comunicación con algún proceso, se deberá generar un error informando al Usuario de dicho problema. Si la desconexión ocurre entre el Planificador y el Coordinador; el sistema se considera en un estado inválido. La desconección de Instancias y de ESIs deberá estar contemplada.
+En caso de que ocurra un error en la comunicación con algún proceso, se deberá generar un error informando al Usuario de dicho problema. Si la desconexión ocurre entre el Planificador y el Coordinador; el sistema se considera en un estado inválido. La desconexión de Instancias y de ESIs deberá estar contemplada.
 
 ### Error de Clave Innacesible
 
